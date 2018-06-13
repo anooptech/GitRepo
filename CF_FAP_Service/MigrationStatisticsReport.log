@@ -1,0 +1,22 @@
+2018-04-09 11:35:31,163 [Worker-4] INFO  com.tibco.bw.migration.stats  - Migrating Business Works 5.x projects to version 6 using arguments:: 
+[Target Project Directory: c:\Users\brock\Documents\workspaces\CF/CF_FAP_Service ]
+[Source Project Directory: C:\Users\brock\Documents\Work\TIBCO\BW5Projects\CF_Demo\FAPService\CF_FAP_Service ]
+[Project Name: CF_FAP_Service ]
+
+
+------------------ Migration Statistics ----------------
+
+Project Migration Time [Millisecond]: 12353
+
+Process Migration Time [Millisecond]
+1. C:/Users/brock/Documents/Work/TIBCO/BW5Projects/CF_Demo/FAPService/CF_FAP_Service/FAP_Service/ProviderRestfulService/SubProcesses/zipCodeSearch.process: 601
+2. C:/Users/brock/Documents/Work/TIBCO/BW5Projects/CF_Demo/FAPService/CF_FAP_Service/FAP_Service/ProviderRestfulService/SubProcesses/nameSearch.process: 746
+3. C:/Users/brock/Documents/Work/TIBCO/BW5Projects/CF_Demo/FAPService/CF_FAP_Service/FAP_Service/ProviderRestfulService/SubProcesses/allProviders.process: 562
+4. C:/Users/brock/Documents/Work/TIBCO/BW5Projects/CF_Demo/FAPService/CF_FAP_Service/FAP_Service/ProviderRestfulService/Common/InfoLog.process: 1045
+5. C:/Users/brock/Documents/Work/TIBCO/BW5Projects/CF_Demo/FAPService/CF_FAP_Service/FAP_Service/ProviderRestfulService/MainProcesses/ProviderServiceReceiver.process: 3112
+
+Artifacts Migrated [Count]
+1. Process Migrated:5
+2. WSDL Migrated:0
+3. Schema Migrated:2
+4. XSLT Migrated:0

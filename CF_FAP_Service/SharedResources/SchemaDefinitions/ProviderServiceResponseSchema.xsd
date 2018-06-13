@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema xmlns="http://www.tibco.com/schemas/CF_FAP_Service/SharedResources/SchemaDefinitions/Schema.xsd2" xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.tibco.com/schemas/CF_FAP_Service/SharedResources/SchemaDefinitions/Schema.xsd2">
+	<xs:element name="ProviderServiceResponse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="statusCode"/>
+				<xs:element ref="msg"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="statusCode" type="xs:string"/>
+	<xs:element name="msg" type="xs:string"/>
+</xs:schema>

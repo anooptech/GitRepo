@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema xmlns="http://www.tibco.com/schemas/CF_FAP_Service/SharedResources/SchemaDefinitions/Schema.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.tibco.com/schemas/CF_FAP_Service/SharedResources/SchemaDefinitions/Schema.xsd">
+	<xs:element name="ProviderServiceRequest">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="function"/>
+				<xs:element minOccurs="0" ref="transactionID"/>
+				<xs:element minOccurs="0" ref="providerName"/>
+				<xs:element minOccurs="0" ref="providerZipCode"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="function" type="xs:string"/>
+	<xs:element name="transactionID" type="xs:string"/>
+	<xs:element name="providerName" type="xs:string"/>
+	<xs:element name="providerZipCode" type="xs:string"/>
+</xs:schema>
