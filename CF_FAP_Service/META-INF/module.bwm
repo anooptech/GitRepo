@@ -8,6 +8,7 @@
   <sca:property xmi:id="_-9f_BTu7Eeisyvbcib5Mig" name="BW.CLOUD.PORT" type="XMLSchema:int" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="_-9f_Bju7Eeisyvbcib5Mig" name="BW.MODULE.NAME" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="__36_4Du7Eeisyvbcib5Mig" name="SharedResourcesConnectionsHTTPHTTP-Connection-Provider" type="httpconnector:HttpConnectorConfiguration" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_PvjEMG_jEeiSiLQMJpamnQ" name="ConsulProperty" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="__CsoEDu7Eeisyvbcib5Mig" name="HTTPParameters/ProviderHTTP/Host_Name" type="XMLSchema:string" publicAccess="true" scalable="true"/>
   <sca:property xmi:id="__CsoETu7Eeisyvbcib5Mig" name="HTTPParameters/ProviderHTTP/Port" type="XMLSchema:int" scaext:simpleValue="0" publicAccess="true" scalable="true"/>
   <sca:component xmi:id="_AUAe8Du8Eeisyvbcib5Mig" name="FAP_Service.ProviderRestfulService.MainProcesses.ProviderServiceReceiverComponent" compositeext:version="1.0.0.qualifier">
